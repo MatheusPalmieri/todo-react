@@ -1,0 +1,30 @@
+.modal {
+  width: 600px;
+  height: 400px;
+}
+
+.input-edit {
+  background: none;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 450px;
+  border: #008b8b 2px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: border 0.5s;
+}
+
+.input-edit:focus {
+  border-color: #008f9f;
+}
+
+.input-edit {
+  font-size: 18px;
+  padding: 0 10px;
+}
+
+.icon {
+  margin-top: 6px;
+  margin-right: 10px;
+}
